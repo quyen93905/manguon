@@ -1,0 +1,40 @@
+<h1>Sửa</h1>
+<form action="/update" method="post">
+
+    <table border="1">
+        <tr>
+            <th>LABLE</th>
+            <th>VALUE</th>
+        </tr>
+        <tr>
+            <td>ID:</td>
+            <td><input type="text" name="id" value="<%= userfour.id %>"></td>
+        </tr>
+        <tr>
+            <td>IdVillage:</td>
+            <td><input type="text" name="IdVillage" value="<%= userfour.IdVillage %>"></td>
+        </tr>
+        <tr>
+            <td>Address:</td>
+            <td><input type="text" name="Address" value="<%= userfour.Address %>"></td>
+        </tr>
+        <tr>
+            <td>IsGetNotification :</td>
+            <td><input type="text" name="IsGetNotification " value="<%= userfour.IsGetNotification  %>"></td>
+        </tr>
+        <tr>
+            <td>IsVerified:</td>
+            <td><input type="text" name="IsVerified" value="<%= userfour.IsVerified %>"></td>
+        </tr>
+        <tr>
+            <td>IsGetOpen:</td>
+            <td><input type="text" name="IsGetOpen" value="<%= userfour.IsGetOpen %>"></td>
+        </tr>
+
+    </table>
+
+
+    
+
+    <button type="submit">Sửa</button>
+</form>
